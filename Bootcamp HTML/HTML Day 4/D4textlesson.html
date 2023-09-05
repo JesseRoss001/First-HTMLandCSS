@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messed up</title>
+  </head>
+  <style>
+    p {
+      color: white;
+      background-color: red;
+      padding-left: 15px;
+      font-family: arial;
+    }
+    .Shop {
+      cursor: pointer;
+      color: white;
+      background-color: red;
+      border-color: red;
+      border-width: 0px;
+    }
+    .Shop:hover {
+      background-color: rgb(84, 84, 255);
+      color: white;
+      text-decoration: underline;
+    }
+    .Example {
+      color: aquamarine;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .Example:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <p class="Text">
+      Shop early for eggs
+      <button
+        class="Shop"
+        onclick="location.href='https://google.com'"
+        target="_blank"
+      >
+        Shop Now
+      </button>
+    </p>
+
+    <p class="Ind">
+      Using text <span class="Example"> dsada</span>elements <u>Uncle</u>
+    </p>
+  </body>
+</html>

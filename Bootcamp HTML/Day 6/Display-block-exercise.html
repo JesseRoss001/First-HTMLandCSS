@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.Name,.Email {display:block;
+margin-bottom: 5px;}
+.Lorem {width :270px;
+display:inline-block;}
+.Yes{position:fixed;
+top:110px;
+left:300px;
+transition: background-color 0.15s, color 0.15s,font-weight 0.15s,box-shadow 0.3s;
+cursor: pointer;}
+.Yes:hover,.No:hover 
+{color:red;}
+.Yes:active,.No:active
+{background-color: black;
+font-weight: 300;
+box-shadow: 200px 7px 10px rgba(230, 19, 19, 0.3);
+}
+.No{position:fixed;
+top:110px;
+left:342px;
+cursor: pointer;
+transition: background-color 0.15s, color 0.15s,font-weight 0.15s;}
+.Google {
+position:fixed;
+height: 65px;
+width:130px;
+top:190px;
+left:100px;}
+.Searchbar{position:fixed;
+top:260px;
+left:50px;
+text-align:left;
+width:250px;}
+
+
+</style> 
+</head>
+<body>
+    <input class="Name" placeholder="Name">
+   <input class="Email" placeholder="Email">
+<p class="Lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et tenetur, quibusdam eveniet nemo sequi odio minima placeat beatae praesentium sint?</p> 
+<button class="Yes"> Yes </button>
+<button class="No"> No </button>
+<img class="Google" src="download.png">
+<a href="https://www.google.co.uk/" >
+  <input class="Searchbar" placeholder="Search google for urls">
+</a>
+</body>
+</html>
